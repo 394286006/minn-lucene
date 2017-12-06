@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>p.minn</groupId>
+		<artifactId>minn-parent</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	<artifactId>minn-lucene</artifactId>
+	<version>0.0.1</version>
+	<name>minn lucene</name>
+	<dependencies>
+		<dependency>
+			<groupId>p.minn</groupId>
+			<artifactId>minn-hadoop</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-analyzers-common</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-smartcn</artifactId>
+			<version>3.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>p.minn</groupId>
+			<artifactId>minn-base</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+
+	</dependencies>
+	<organization>
+		<name>minn</name>
+		<url>http://fmfl.iteye.com</url>
+	</organization>
+</project>
