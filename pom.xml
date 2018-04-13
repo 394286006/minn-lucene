@@ -4,16 +4,16 @@
 	<parent>
 		<groupId>p.minn</groupId>
 		<artifactId>minn-parent</artifactId>
-		<version>0.0.1</version>
+		<version>1.0.0</version>
 	</parent>
 	<artifactId>minn-lucene</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 	<name>minn lucene</name>
 	<dependencies>
 		<dependency>
 			<groupId>p.minn</groupId>
 			<artifactId>minn-hadoop</artifactId>
-			<version>0.0.1</version>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>p.minn</groupId>
 			<artifactId>minn-base</artifactId>
-			<version>0.0.1</version>
+			<version>1.0.0</version>
 		</dependency>
 
 	</dependencies>
